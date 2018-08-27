@@ -14,6 +14,7 @@
         /// <summary>
         /// Selectable frame can span all columns (text will still fit in current column)
         /// </summary>
-        SpanAllColumns = 1 << 1
+        SpanAllColumns = 1 << 1,
+        AllowDoubleClick = 1 << 2
     }
 }
